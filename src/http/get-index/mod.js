@@ -10,9 +10,9 @@ export async function handler( /*req: object*/ ) {
             /**
              * Basic bio
              */
-            fullname: 'e2517', // ←  Start by adding your name!
-            title: 'Full Stack Developer',
-            occupation: 'Skater',
+            fullname: 'Manu', // ←  Start by adding your name!
+            title: 'Celoson',
+            occupation: 'Mentor',
             location: 'Earth',
             bio: 'Coders are coders coding codes for coders to code codes',
 
