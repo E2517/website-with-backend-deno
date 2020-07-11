@@ -6,7 +6,7 @@ import SocialMedia from './social-media.js'
 import Icon from './icon.js'
 
 export default function Content(props = {}) {
-  let fullname = props.fullname || ''
+  let fullname = props.fullname || 'e2517'
   let occupation = props.occupation || ''
   let location = props.location || ''
   let bio = props.bio || ''
