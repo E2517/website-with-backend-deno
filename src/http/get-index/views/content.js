@@ -6,17 +6,17 @@ import SocialMedia from './social-media.js'
 import Icon from './icon.js'
 
 export default function Content(props = {}) {
-  let fullname = props.fullname || 'e2517'
-  let occupation = props.occupation || ''
-  let location = props.location || ''
-  let bio = props.bio || ''
-  let email = props.email || ''
-  let twitter = props.twitter || ''
-  let linkedin = props.linkedin || ''
-  let instagram = props.instagram || ''
-  let facebook = props.facebook || ''
+    let fullname = props.fullname || ''
+    let occupation = props.occupation || ''
+    let location = props.location || ''
+    let bio = props.bio || ''
+    let email = props.email || ''
+    let twitter = props.twitter || ''
+    let linkedin = props.linkedin || ''
+    let instagram = props.instagram || ''
+    let facebook = props.facebook || ''
 
-  return `
+    return `
 <section
   class="
     display-flex
